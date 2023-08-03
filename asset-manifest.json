@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pomodoro-task/static/css/main.ed3cf57b.css",
+    "main.js": "/pomodoro-task/static/js/main.fddbf805.js",
+    "static/media/beep.wav": "/pomodoro-task/static/media/beep.3f6775e1df13bb683704.wav",
+    "static/media/bg-pattern.svg": "/pomodoro-task/static/media/bg-pattern.60e95b271090e47c3768.svg",
+    "index.html": "/pomodoro-task/index.html",
+    "main.ed3cf57b.css.map": "/pomodoro-task/static/css/main.ed3cf57b.css.map",
+    "main.fddbf805.js.map": "/pomodoro-task/static/js/main.fddbf805.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed3cf57b.css",
+    "static/js/main.fddbf805.js"
+  ]
+}
