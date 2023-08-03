@@ -1,0 +1,91 @@
+.config{
+          width: 100%;
+          height: 100%;
+          padding: 10%;
+          position: absolute;
+          top: 50%;
+          transform: translate(-50%,-50%);
+          left: 50%;
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          align-items: center;
+          margin: 0 auto;
+}
+
+.header{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+}
+
+.closeBtn{
+          font-size: 20px;
+}
+
+.okBtn{
+          font-size: 23px;
+}
+
+.settings{
+          width: 100%;
+          color: var(--secondary-color);
+}
+
+.header > h1{
+          flex: 1;
+}
+
+.settings > div{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 8px 10px;
+          border-bottom: 1px solid var(--stroke-color);
+}
+
+.time{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+
+.time > p{
+          font-size: var(--paragraph-font-size);
+}
+
+.chevron{
+          font-size: 20px;
+}
+
+.chevron:active{
+          transform: scale(.98);
+}
+
+.settings > textarea{
+          border: 1px solid var(--stroke-color);
+          margin: 8px 0 0 0;
+          padding: 10px;
+          border-radius: 16px;
+          width: 100%;
+          height: 200px;
+          font-size: var(--paragraph-font-size);
+}
+
+.settings > textarea::placeholder{
+          font-size: var(--placeholder-font);
+          color: var(--placeholder-color);
+}
+
+.playBtn{
+          font-size: 45px;
+          color: var(--placeholder-color);
+}
+
+@media (min-width: 426px){
+          .config{
+                    height: 90%;
+          }
+}

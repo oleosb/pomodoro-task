@@ -1,0 +1,46 @@
+.description{
+          
+          width: min(900px, 100vw);
+          padding: 10%;
+}
+
+.description > div{
+                    /* From https://css.glass */
+                    background: rgba(255, 255, 255, 0.2);
+                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                    backdrop-filter: blur(5px);
+                    -webkit-backdrop-filter: blur(5px);
+                    border: 1px solid rgba(255, 255, 255, 0.3);
+                    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+                    padding: 10px;
+                    border-radius: 18px;
+                    animation: fadeIn 1s ease;
+}
+
+.description > div + div{
+          margin: 40px 0 0 0;
+}
+
+.description h1{
+          margin: 0 0 10px 0;
+}
+
+.description .copy{
+          font-size: 12px;
+}
+
+.description p{
+          text-align: justify;
+          font-size: var(--paragraph-font-size);
+}
+
+.func{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+}
+
+.func span{
+          font-size: 12px;
+}

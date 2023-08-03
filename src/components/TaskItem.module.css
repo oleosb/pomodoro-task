@@ -1,0 +1,23 @@
+.taskItem{
+          display: flex;
+          justify-content: space-between;
+          padding: 8px 0;
+          font-size: var(--paragraph-font-size);
+          animation: fadeIn 1s ease;
+}
+
+.taskItem > div{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+}
+
+@keyframes fadeIn {
+          0%{
+                    opacity: 0;
+          }
+          100%{
+                    opacity: 1;
+          }
+}
